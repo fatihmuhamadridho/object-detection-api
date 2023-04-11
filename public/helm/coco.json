@@ -1,0 +1,105 @@
+{
+  "annotations": [
+    {
+      "area": 13016,
+      "bbox": [22, 37, 132, 99],
+      "category_id": 3,
+      "id": 1,
+      "image_id": 1,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 13700,
+      "bbox": [187, 37, 131, 105],
+      "category_id": 3,
+      "id": 2,
+      "image_id": 1,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 13830,
+      "bbox": [345, 363, 131, 106],
+      "category_id": 3,
+      "id": 3,
+      "image_id": 1,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 17091,
+      "bbox": [338, 195, 143, 120],
+      "category_id": 3,
+      "id": 4,
+      "image_id": 1,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 12963,
+      "bbox": [346, 42, 137, 95],
+      "category_id": 3,
+      "id": 5,
+      "image_id": 1,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 45786,
+      "bbox": [43, 203, 231, 199],
+      "category_id": 3,
+      "id": 6,
+      "image_id": 1,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 104849,
+      "bbox": [154, 16, 323, 325],
+      "category_id": 3,
+      "id": 7,
+      "image_id": 2,
+      "iscrowd": 0,
+      "segmentation": []
+    },
+    {
+      "area": 919319,
+      "bbox": [18, 29, 981, 937],
+      "category_id": 3,
+      "id": 8,
+      "image_id": 3,
+      "iscrowd": 0,
+      "segmentation": []
+    }
+  ],
+  "attributes": [
+    {
+      "items": ["adidas", "converse", "vans"],
+      "name": "brand",
+      "prefix": "",
+      "type": "Single select"
+    },
+    {
+      "items": ["black", "red", "white", "yellow"],
+      "name": "color",
+      "prefix": "",
+      "type": "Multiple select"
+    }
+  ],
+  "categories": [
+    { "attributes": ["brand", "color"], "id": 1, "name": "sneakers" },
+    { "id": 2, "name": "ignore" },
+    { "id": 3, "name": "helmet" }
+  ],
+  "images": [
+    {
+      "file_name": "13e20b0a-2220-4db9-8915-755dc043ee89.jpeg",
+      "height": 500,
+      "id": 1,
+      "width": 500
+    },
+    { "file_name": "helm.jpg", "height": 365, "id": 2, "width": 650 },
+    { "file_name": "sg-11134201-23010-1f9a9kfbbfmv5d.jpeg", "height": 1024, "id": 3, "width": 1024 }
+  ]
+}
